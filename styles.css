@@ -1,4 +1,3 @@
-
 body {
   font-family: Lato;
   margin-bottom: 100px;
@@ -6,36 +5,39 @@ body {
 }
 
 .container {
-  width: 720px;
+  width: 750px;
 
-  height: 650px;
+  height: 800px;
 
   background-color: #f5f8fa;
 
-  display: flex;
-  flex-direction: row;
-
+  margin: 0 auto;
   flex-shrink: 0;
-
-  margin-left: 50px;
-
-  justify-content: center;
-  padding-top: 150px;
 
   border: none;
 }
 
+.logo-icon img {
+  height: 21px;
+}
+
+.logo-icon {
+  margin-left: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
 .header {
   display: flex;
-
-  position: absolute;
-
-  top: 23px;
-  right: 480px;
   gap: 20px;
-
   align-items: center;
-
+  margin-right: 20px;
   color: #1d2c3c;
 
   font-size: 11px;
@@ -45,22 +47,19 @@ body {
   border-color: #646e7a;
 
   border-radius: 4px;
+
+  padding: 5px 5px 5px 5px;
 }
 
-.logo-icon img {
-  height: 21px;
+main {
+  display: flex;
+  justify-content: center;
 
-  margin-right: 30px;
-
-  position: absolute;
-  top: 23px;
-
-  left: 70px;
+  margin-top: 80px;
 }
 
 .box1 {
   width: 350px;
-  margin-top: -40px;
 
   height: 580px;
 
@@ -347,7 +346,6 @@ body {
   border-radius: 0px 6px 6px 0px;
 
   width: 195px;
-  margin-top: -40px;
 
   padding-left: 35px;
   height: 580px;
@@ -468,7 +466,7 @@ span {
 
 #Terms {
   position: absolute;
-  bottom: -160px;
+  bottom: -180px;
   color: #636b6f;
   text-align: center;
   font-size: 10px;
